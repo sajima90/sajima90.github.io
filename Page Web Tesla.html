@@ -1,7 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Tesla : La révolution de l'automobile électrique">
+		<meta name="keywords" content="tesla">
+		<meta name="robots" content="NOINDEX, NOFOLLOW">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
 		<title>Page Tesla</title>
 		<link rel="stylesheet" href="Style.css">
 		<script>
@@ -18,13 +24,24 @@
 	<p>
 	<b>Cliquez sur un bouton pour changer la couleur du fond</b>
 	<br>
+	<br>
 	<!-- <button onclick = "changeColor('black');" class ="noir">noir</button> -->
 	<!-- <button onclick = "changeColor('white');" class =blanc>blanc</button> -->
-	<button onclick = "changeColor('silver');" class="argent">argent</button>
-	<button onclick = "changeColor('blue');" class="bleu">Bleu</button>
-	<button onclick = "changeColor('green');" class="vert">Vert</button>
-	<button onclick = "changeColor('red');" class="rouge">Rouge</button>
-	<button onclick = "changeColor('yellow');" class="jaune">Jaune</button>
+
+
+			<button onclick = "changeColor('silver');" class="argent">Argent</button>
+
+			<button onclick = "changeColor('blue');" class="bleu">Bleu</button>
+
+			<button onclick = "changeColor('green');" class="vert">Vert</button>
+			<button onclick = "changeColor('rgb(178,15,228)');" class="violet">violet</button>
+
+			<button onclick = "changeColor('red');" class="rouge">Rouge</button>
+			<button onclick = "changeColor('yellow');" class="jaune">Jaune</button>
+
+
+
+
 	</p>
 	<br>
 	<br>
@@ -43,7 +60,7 @@
 	<br>
 	<p>
 	<h3>
-	<font color ="red">Elon Musk</font> est un <i>homme d'affaire</i> d'origine <b>sud-africaine</b>,
+	<font color ="grey">Elon Musk</font> est un <i>homme d'affaire</i> d'origine <b>sud-africaine</b>,
 		Né le 28 juin 1971 à <u>Prétoria</u>. Devenu citoyen <b>américain</b>, il vit à <u>Los Angeles</u>.
 		Il a fondé plusieur entreprises comme : <b>SpaceX</b> <u>en 2002</u>.
 		En <u>2004</u> <font color="forestgreen">Elon Musk</font> entre au capital de <b>Tesla</b>
@@ -51,13 +68,13 @@
 	</h3>
 	</p>
 	<p>
-		<img src="Musk_01.jpg">
+		<img src="IMG/Musk_01.jpg">
 	</p>
 	<p>
 	<i>Elon Musk<i>
 	</p>
 	<p>
-		En effef, Tesla est depuis quelque années le <b><font color ="brown">premier</font> constructeur 
+		En effef, Tesla est depuis quelque années le <b><font color ="yellow">premier</font> constructeur 
 		mondial de voiture électrique</b>.
 	</p>
 	<table>
@@ -90,7 +107,7 @@
 
 		<br>
 		<br>
-		<img src="Tesla_Model X_01.jpg">
+		<img src="IMG/Tesla_Model X_01.jpg">
 	</p>
 	<p>
 		<i>La Tesla Model X</i>
@@ -98,7 +115,7 @@
 	<br>
 	<br>
 	<p>
-		<img src="Tesla_Model 3_01.jpg" >
+		<img src="IMG/Tesla_Model 3_01.jpg" >
 		</p>
 		<p>
 			<i>La Tesla Model 3</i>
@@ -106,7 +123,7 @@
 		<br>
 		<br>
 		<p>
-			<img src="Tesla_Model 3_02.jpg" >
+			<img src="IMG/Tesla_Model 3_02.jpg" >
 		</p>
 		<p>
 			<i>Interieur de la Model 3</i>
@@ -114,7 +131,9 @@
 		<br>
 		<br>
 		<p>
-			<img src="Tesla_Cybertruck_01.jpg" >
+			<a href="IMG/Tesla_Cybertruck_01.jpg" target="_bank">
+				<img src="IMG/Tesla_Cybertruck_01.jpg"/>
+			</a>
 		</p>
 		<p>
 			<i>Le Cybertruck</i>
@@ -125,7 +144,8 @@
 	<h2>3) Quelques données statistiques</h2>
 	<br>
 	<br>
-	<table>
+
+	<table width="100%">
 		<caption><b>Les ventes de voitures électriques et hybrides par groupes</b></caption>
 		<tr>
 			<th>Constructeur automobiles</th>
@@ -159,8 +179,8 @@
 	<br>
 	<br>
 	
-	<table>
-		<caption><b>Les ventes de voitures électriques et hybrides par modèles</b></caption>
+	<table width="100%">
+		<caption ><b>Les ventes de voitures électriques et hybrides par modèles</b></caption>
 		<tr>
 			<th>Voitures</th>
 			<th>Janvier à juin 2020</th>
@@ -193,7 +213,7 @@
 	
 	<br>
 	<br>
-	<table>
+	<table width="100%">
 		<caption><b>Les quatre principaux marchés de la voiture électrique et hybride</b></caption>
 		<tr>
 			<th>Marchés</th>
@@ -221,20 +241,38 @@
 	<h2>4) Video pub Tesla :</h2>
 
 	<video controls>
-		<source src="Pub Tesla.mp4" type="video/mp4">
+		<source src="IMG/Pub Tesla.mp4" type="video/mp4">
 			<p>Votre navigateur ne prend pas en charge les vidéos HTML5.
 				Voici<a href="https://www.youtube.com/watch?v=aPNGBxdJ4Jg">Un lien pour télécharger la vidéo</a></p>
 			</video>
-			Video : <button onclick><a href="https://www.youtube.com/watch?v=aPNGBxdJ4Jg" download>Voici un lien pour télécharger la vidéo</button>
+			Video : <button onclick><a href="IMG/Pub Tesla.mp4" rel="nofollow" target="_bank">Voici un lien pour télécharger la vidéo</button>
+
 	<br>
 	<br>	
 	<br>
-	Site officiel de Tesla : <a href="https://www.tesla.com/fr_fr">Lien vers le site de Tesla</a>
+
+	<a href="https://www.tesla.com/fr_fr" target="_bank">Lien vers le site de Tesla</a>
+	<br>
+	<br>
+	<br>
+	<a href="Cours/Balise semantique.html" target="_bank">Cours Balise semantique</a>
+	<br>
+	<br>
+	<br>
+	<a href="Cours/Formulaire.html" target="_bank">Cours Formulaire</a>
+	<br>
+	<br>
+	<br>
+	<a href="Cours/Liste et paragraphe.html" target="_bank">Cours Liste et paragraphe</a>
 	<br>
 	<br>
 	<br>
 	<br>
-	<br> 
+
+
+
+
+
 
 	Crée par Cauvin Pierre 2G4 SNT -  © 2020
 	</body>
